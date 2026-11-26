@@ -164,7 +164,7 @@
       This Privacy Notice for <strong>Mohammed Sharjun</strong> (operating as <strong>Deeniac</strong>) (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;), describes how and why we might access, collect, store, use, and/or share (&quot;process&quot;) your personal information when you use our services (&quot;Services&quot;), including when you:
     </p>
     <ul>
-      <li>Download and use our mobile application (<strong>Minqira</strong>, formerly <strong>Mumin</strong>), or any other application of ours that links to this Privacy Notice.</li>
+      <li>Download and use our mobile application (<strong>Minqira</strong>), or any other application of ours that links to this Privacy Notice.</li>
       <li>Use Minqira to learn Arabic, Quran, and Islamic knowledge through quizzes, lessons, prayer times, Qibla compass, and speech practice.</li>
       <li>Engage with us in other related ways, including customer support, feedback, and app updates.</li>
     </ul>
@@ -197,7 +197,8 @@
     <h3>Information Collected Automatically & Device Permissions</h3>
     <ul>
       <li><strong>Geolocation Data (Prayer Times &amp; Qibla):</strong> We request permission to access your device's approximate and precise location (<code>ACCESS_COARSE_LOCATION</code> and <code>ACCESS_FINE_LOCATION</code>). This data is processed strictly locally on your device to calculate accurate astronomical prayer times and determine the Qibla compass bearing. <em>Your location is never stored on our external servers or tracked in the background.</em></li>
-      <li><strong>Microphone / Audio (<code>RECORD_AUDIO</code>):</strong> Used only during active recitation practice to analyze speech pronunciation in real-time. No audio clips are saved or transmitted to external storage.</li>
+      <li><strong>Microphone &amp; Audio Routing (<code>RECORD_AUDIO</code>, <code>BLUETOOTH_CONNECT</code>):</strong> Used only during active recitation practice to capture your speech and route audio to connected Bluetooth headsets/earphones. Speech analysis is performed in real-time. No raw audio clips are saved, archived, or transmitted to external storage.</li>
+      <li><strong>Sensors &amp; Compass (<code>HIGH_SAMPLING_RATE_SENSORS</code>):</strong> Used to read device compass/magnetometer sensors for smooth, accurate real-time Qibla heading navigation. Sensor data remains strictly on-device.</li>
       <li><strong>Exact Alarms (<code>SCHEDULE_EXACT_ALARM</code>):</strong> Used to trigger punctual prayer time reminders (Athan) and study streak notifications at user-specified moments.</li>
       <li><strong>Device &amp; Diagnostic Data:</strong> Device model, operating system version, crash reports (via Google Firebase Crashlytics), and app performance metrics.</li>
     </ul>
