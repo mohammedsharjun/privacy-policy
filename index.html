@@ -189,7 +189,7 @@
     <h3>Personal Information Disclosed by You</h3>
     <p>We collect personal information that you voluntarily provide to us when you register on the Services or contact customer support:</p>
     <ul>
-      <li><strong>Account Credentials:</strong> Full name, email address, and hashed authentication password (secured via Google Firebase Authentication).</li>
+      <li><strong>Account Credentials &amp; Profile Info:</strong> Full name, email address, phone number (optional, for phone sign-in or profile verification), username, optional profile photo (uploaded via Cloudinary), date of birth, gender, country, and hashed authentication password (secured via Google Firebase Authentication).</li>
       <li><strong>Learning Progress:</strong> Quiz scores, streak days, lessons completed, and virtual rewards.</li>
       <li><strong>Support Inquiries:</strong> Messages, feedback, and correspondence sent to our support email.</li>
     </ul>
@@ -200,7 +200,7 @@
       <li><strong>Microphone &amp; Audio Routing (<code>RECORD_AUDIO</code>, <code>BLUETOOTH_CONNECT</code>):</strong> Used only during active recitation practice to capture your speech and route audio to connected Bluetooth headsets/earphones. Speech analysis is performed in real-time. No raw audio clips are saved, archived, or transmitted to external storage.</li>
       <li><strong>Sensors &amp; Compass (<code>HIGH_SAMPLING_RATE_SENSORS</code>):</strong> Used to read device compass/magnetometer sensors for smooth, accurate real-time Qibla heading navigation. Sensor data remains strictly on-device.</li>
       <li><strong>Exact Alarms (<code>SCHEDULE_EXACT_ALARM</code>):</strong> Used to trigger punctual prayer time reminders (Athan) and study streak notifications at user-specified moments.</li>
-      <li><strong>Device &amp; Diagnostic Data:</strong> Device model, operating system version, crash reports (via Google Firebase Crashlytics), and app performance metrics.</li>
+      <li><strong>Device, Analytics &amp; Advertising IDs:</strong> Device model, operating system version, app usage analytics (via Google Firebase Analytics), and device advertising IDs (GAID via Google AdMob) for ad delivery and app performance.</li>
     </ul>
 
     <h2>2. HOW DO WE PROCESS YOUR INFORMATION?</h2>
@@ -225,7 +225,7 @@
     <h2>4. WHEN AND WITH WHOM DO WE SHARE YOUR DATA?</h2>
     <p>We do not sell, rent, or trade your personal data. We only share information with certified infrastructure providers necessary to operate the application:</p>
     <ul>
-      <li><strong>Google Firebase (Google LLC):</strong> Cloud Firestore database, user authentication, and crash logging.</li>
+      <li><strong>Google Firebase (Google LLC):</strong> Cloud Firestore database, user authentication, push messaging (FCM), and Firebase Analytics.</li>
       <li><strong>Google AdMob (Google LLC):</strong> In-app ad monetization. AdMob may collect device advertising IDs (GAID) in accordance with Google Play policies.</li>
       <li><strong>Google Play Billing (Google LLC):</strong> In-app purchase processing.</li>
       <li><strong>Cloudinary:</strong> Secure CDN used to stream educational illustrations and audio files.</li>
